@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-image: url("../images/background-big-optimized2.png");
+  background-image: url("../images/background-big.png");
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
@@ -16,7 +16,7 @@ body {
   margin: 0 auto;
 }
 .logo {
-  padding: 25px 0 0 25px;
+  padding: 25px 0 15px 25px;
 }
 .content {
   padding: 15px 25px 0 25px;
@@ -186,40 +186,40 @@ input {
     font-size: 30px;
   }
   .form-btn-text-main {
-    font-size: 34px;
+    font-size: 30px;
   }
   .form-btn-text-secondary {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 
 @media only screen and (max-width: 1920px){
   .logo {
-    padding: 40px 0 0 40px;
-    width: 160px;
+    padding: 40px 0 20px 40px;
+    width: 150px;
   }
   .content {
     padding: 0 75px 0 40px;
   }
   .action-description {
-    font-size: 87px;
+    font-size: 85px;
     margin-bottom: -10px;
   }
   .action-description-red {
-    font-size: 114px;
+    font-size: 104px;
   }
   .form-background {
     width: 411px;
     padding: 35px;
-    border-radius: 10px;
+    border-radius: 7px;
   }
   .form-header {
-    padding: 30px 0;
-    font-size: 35px;
+    padding: 20px 0;
+    font-size: 25px;
     line-height: 30px;
   }
   .form-description {
-    font-size: 29px;
+    font-size: 25px;
     padding: 30px 0;
   }
   .form-list {
@@ -232,7 +232,7 @@ input {
 }
 @media only screen and (max-width: 1680px){
   .logo {
-    padding: 40px 0 0 40px;
+    padding: 40px 0 20px 40px;
     width: 130px;
   }
   .content {
@@ -247,124 +247,87 @@ input {
   }
   .form-background {
     width: 375px;
-    padding: 40px;
-    border-radius: 10px;
-  }
-  .form-header {
-    padding: 25px 0;
-    font-size: 30px;
-    line-height: 35px;
-  }
-  .form-description {
-    font-size: 23px;
-    padding: 35px 0;
-  }
-  .form-list {
-    font-size: 23px;
-    padding: 25px 0 25px 15px;
-  }
-  .form-list li::before {
-    font-size: 23px;
-  }
-}
-@media only screen and (max-width: 1600px){
-  .logo {
-    padding: 40px 0 0 40px;
-    width: 130px;
-  }
-  .content {
-    padding: 25px 75px 0 40px;
-  }
-  .action-description {
-    font-size: 87px;
-    margin-bottom: -10px;
-  }
-  .action-description-red {
-    font-size: 104px;
-  }
-  .form-background {
-    width: 375px;
-    padding: 40px;
-    border-radius: 10px;
-  }
-  .form-header {
-    padding: 25px 0;
-    font-size: 30px;
-    line-height: 35px;
-  }
-  .form-description {
-    font-size: 23px;
-    padding: 35px 0;
-  }
-  .form-list {
-    font-size: 23px;
-    padding: 30px 0 30px 15px;
-  }
-  .form-list li::before {
-    font-size: 23px;
-  }
-}
-@media only screen and (max-width: 1440px){
-  .logo {
-    padding: 40px 0 0 40px;
-    width: 125px;
-  }
-  .content {
-    padding: 25px 65px 0 40px;
-  }
-  .action-description {
-    font-size: 77px;
-    margin-bottom: -10px;
-  }
-  .action-description-red {
-    font-size: 94px;
-  }
-  .form-background {
-    width: 350px;
-    padding: 35px;
-    border-radius: 10px;
-  }
-  .form-header {
-    padding: 20px 0;
-    font-size: 27px;
-    line-height: 30px;
-  }
-  .form-description {
-    font-size: 21px;
-    padding: 20px 0;
-  }
-  .form-list {
-    font-size: 21px;
-    padding: 30px 0 30px 15px;
-  }
-  .form-list li::before {
-    font-size: 21px;
-  }
-}
-@media only screen and (max-width: 1366px){
-  .logo {
-    padding: 40px 0 0 40px;
-    width: 125px;
-  }
-  .content {
-    padding: 25px 65px 0 40px;
-  }
-  .action-description {
-    font-size: 77px;
-    margin-bottom: -10px;
-  }
-  .action-description-red {
-    font-size: 94px;
-  }
-  .form-background {
-    width: 325px;
     padding: 30px;
     border-radius: 7px;
   }
   .form-header {
     padding: 20px 0;
     font-size: 25px;
-    line-height: 30px;
+    line-height: 25px;
+  }
+  .form-description {
+    font-size: 21px;
+    padding: 25px 0;
+  }
+  .form-list {
+    font-size: 21px;
+    padding: 20px 0 20px 15px;
+  }
+  .form-list li::before {
+    font-size: 21px;
+  }
+}
+@media only screen and (max-width: 1600px){
+  .logo {
+    padding: 40px 0 20px 40px;
+    width: 130px;
+  }
+  .content {
+    padding: 25px 75px 0 40px;
+  }
+  .action-description {
+    font-size: 85px;
+    margin-bottom: -10px;
+  }
+  .action-description-red {
+    font-size: 100px;
+  }
+  .form-background {
+    width: 375px;
+    padding: 30px;
+    border-radius: 7px;
+  }
+  .form-header {
+    padding: 20px 0;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .form-description {
+    font-size: 20px;
+    padding: 25px 0;
+  }
+  .form-list {
+    font-size: 20px;
+    padding: 25px 0 25px 15px;
+  }
+  .form-list li::before {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1440px){
+  .logo {
+    padding: 40px 0 20px 40px;
+    width: 125px;
+  }
+  .content {
+    padding: 25px 65px 0 40px;
+  }
+  .action-description {
+    font-size: 70px;
+    margin-bottom: -10px;
+  }
+  .action-description-red {
+    font-size: 85px;
+  }
+  .form-background {
+    width: 350px;
+    padding: 25px;
+    border-radius: 7px;
+  }
+  .form-header {
+    padding: 20px 0;
+    font-size: 23px;
+    line-height: 23px;
   }
   .form-description {
     font-size: 20px;
@@ -372,7 +335,44 @@ input {
   }
   .form-list {
     font-size: 20px;
-    padding: 30px 0 30px 15px;
+    padding: 25px 0 25px 15px;
+  }
+  .form-list li::before {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1366px){
+  .logo {
+    padding: 40px 0 20px 40px;
+    width: 125px;
+  }
+  .content {
+    padding: 25px 65px 0 40px;
+  }
+  .action-description {
+    font-size: 69px;
+    margin-bottom: -10px;
+  }
+  .action-description-red {
+    font-size: 80px;
+  }
+  .form-background {
+    width: 325px;
+    padding: 30px;
+    border-radius: 6px;
+  }
+  .form-header {
+    padding: 20px 0;
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .form-description {
+    font-size: 20px;
+    padding: 20px 0;
+  }
+  .form-list {
+    font-size: 20px;
+    padding: 25px 0 25px 15px;
   }
   .form-list li::before {
     font-size: 20px;
@@ -380,7 +380,7 @@ input {
 }
 @media only screen and (max-width: 1280px){
   .logo {
-    padding: 30px 0 0 30px;
+    padding: 30px 0 20px 30px;
     width: 114px;
   }
   .content {
@@ -391,7 +391,7 @@ input {
     margin-bottom: -10px;
   }
   .action-description-red {
-    font-size: 90px;
+    font-size: 77px;
   }
   .form-background {
     width: 320px;
@@ -400,24 +400,24 @@ input {
   }
   .form-header {
     padding: 20px 0;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 23px;
   }
   .form-description {
-    font-size: 20px;
+    font-size: 19px;
     padding: 20px 0;
   }
   .form-list {
-    font-size: 20px;
-    padding: 30px 0 30px 15px;
+    font-size: 19px;
+    padding: 25px 0 25px 15px;
   }
   .form-list li::before {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 @media only screen and (max-width: 1024px){
   .logo {
-    padding: 25px 0 0 25px;
+    padding: 25px 0 20px 25px;
     width: 114px;
   }
   .content {
@@ -427,7 +427,7 @@ input {
     font-size: 57px;
   }
   .action-description-red {
-    font-size: 84px;
+    font-size: 73px;
   }
   .form-background {
     width: 275px;
@@ -435,8 +435,8 @@ input {
   }
   .form-header {
     padding: 15px 0;
-    font-size: 23px;
-    line-height: 25px;
+    font-size: 22px;
+    line-height: 23px;
   }
   .form-description {
     font-size: 17px;
@@ -445,14 +445,18 @@ input {
   .form-list {
     list-style: none;
     font-size: 17px;
-    padding: 35px 0 30px 15px;
+    padding: 25px 0 25px 15px;
   }
   .form-list li::before {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
 @media only screen and (max-width: 830px){
+  body {
+    background-image: url("../images/background-small.png");
+    height: 100%;
+  }
   .logo {
     padding: 10px 0 0 10px;
     width: 70px;
@@ -500,15 +504,6 @@ input {
   }
 }
 @media only screen and (max-width: 640px){
-  body {
-    background-image: url("../images/background-small-optimized.png");
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    /*background-attachment: fixed;*/
-    background-size: cover;
-  }
   .action-description {
     font-size: 27px;
     margin-bottom: -5px;
