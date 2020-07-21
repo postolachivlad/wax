@@ -3,12 +3,12 @@
   padding: 0;
 }
 body {
-  background-image: url("../images/background.png");
+  background-image: url("../images/background-big-optimized2.png");
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
   background-position: center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-size: cover;
 }
 .width-container {
@@ -158,38 +158,38 @@ input {
     padding: 0 25px 0 50px;
   }
   .action-description {
-    font-size: 107px;
+    font-size: 97px;
     margin-bottom: -15px;
   }
   .action-description-red {
-    font-size: 114px;
+    font-size: 104px;
   }
   .form-background {
     width: 575px;
-    padding: 40px;
-    border-radius: 10px;
+    padding: 35px;
+    border-radius: 7px;
   }
   .form-header {
-    padding: 45px 0;
-    font-size: 45px;
-    line-height: 40px;
+    padding: 40px 0;
+    font-size: 40px;
+    line-height: 35px;
   }
   .form-description {
-    font-size: 35px;
+    font-size: 30px;
     padding: 40px 0;
   }
   .form-list {
-    font-size: 35px;
+    font-size: 30px;
     padding: 40px 0 40px 25px;
   }
   .form-list li::before {
-    font-size: 39px;
+    font-size: 30px;
   }
   .form-btn-text-main {
-    font-size: 36px;
+    font-size: 34px;
   }
   .form-btn-text-secondary {
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 
@@ -453,6 +453,15 @@ input {
 }
 
 @media only screen and (max-width: 830px){
+  body {
+    background-image: url("../images/background-small-optimized.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+  }
   .logo {
     padding: 10px 0 0 10px;
     width: 70px;
