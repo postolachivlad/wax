@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="width-container">
+  <img src="{% static "images/logo_red.png" %}" alt="" class="logo">
+  <div class="content">
+    <div class="action-description-container">
+      <p class="action-description">Erster schritt</p>
+      <p class="action-description-red">fast geschafft!</p>
+    </div>
+    <div class="form-background">
+      <h2 class="form-header">Wähle deinen Wunschtermin aus und gib deine Kontaktdaten ein.</h2>
+      <div class="select-appointment">
+        <p>Termine zur Auswahl</p>
+      </div>
+      <form action="">
+        <div>
+          <div class="name-family-position">
+            <div>
+              <p class="form-labels-styles">Vorname</p>
+              <input type="text">
+            </div>
+            <div>
+              <p class="form-labels-styles">Nachname</p>
+              <input type="text">
+            </div>
+          </div>
+          <div>
+            <p class="form-labels-styles">Email</p>
+            <input type="email" name="">
+          </div>
+          <div>
+            <p class="form-labels-styles">Telephone</p>
+            <input type="tel">
+          </div>
+        </div>
+      </form>
+      <a href="/step-03" class="form-btn">
+        <div class="form-btn-text-container">
+          <p class="form-btn-text-main">Sei dabei</p>
+          <p class="form-btn-text-secondary">Deinen Platz sichern</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+{% endblock %}

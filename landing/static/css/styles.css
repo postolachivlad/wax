@@ -1,0 +1,515 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.width-container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.logo {
+  padding: 25px 0 0 25px;
+}
+.content {
+  padding: 15px 25px 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.action-description-container {
+
+}
+.action-description {
+  font-family: 'Gill Sans MT','Lato', sans-serif;
+  font-size: 57px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -1.12px;
+  margin-bottom: -7px;
+}
+.action-description-red {
+  font-family: 'Gill Sans MT','Lato', sans-serif;
+  text-shadow: 0 0 5px #ffffff;
+  font-size: 84px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -1.12px;
+  color: #d51f45;
+}
+.form-background {
+  width: 311px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background-color: rgba(255,255,255, .9);
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+.form-header {
+  padding: 20px 0;
+  font-size: 27px;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-weight: 700;
+}
+.form-delimiter {
+  width: 90%;
+  margin: 14px auto;
+  height: 2px;
+  background-color: #e6e6e6;
+}
+.form-description {
+  font-size: 19px;
+  font-weight: 400;
+  padding: 20px 0
+}
+.form-list {
+  list-style: none;
+  font-size: 19px;
+  padding: 45px 0 30px 15px;
+}
+.form-list li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red; /* Change the color */
+  font-size: 20px;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 0.7em; /* Also needed for space (tweak if needed) */
+  margin-left: -0.7em; /* Also needed for space (tweak if needed) */
+}
+.form-btn {
+  text-decoration: none;
+}
+.form-btn-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #0e688a 0%, #0b9fd6 100%);
+}
+.form-btn-text-main {
+  color: #ffffff;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.form-btn-text-secondary {
+  color: #ffffff;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 20px;
+}
+.select-appointment {
+  box-shadow: inset 0 0 3px #000000;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  background-color: #58585a;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.select-appointment p {
+  color: #fffefe;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.name-family-position {
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  box-shadow: inset 0 0 3px #000000;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  font-size: 15px;
+  padding: 8px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+.form-labels-styles{
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.phone {
+  color: #d51f45;
+}
+
+@media only screen and (min-width: 1920px){
+  .logo {
+    padding: 50px 0 50px 50px;
+    width: 175px;
+  }
+  .content {
+    padding: 0 25px 0 50px;
+  }
+  .action-description {
+    font-size: 107px;
+    margin-bottom: -15px;
+  }
+  .action-description-red {
+    font-size: 114px;
+  }
+  .form-background {
+    width: 575px;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  .form-header {
+    padding: 45px 0;
+    font-size: 45px;
+    line-height: 40px;
+  }
+  .form-description {
+    font-size: 35px;
+    padding: 40px 0;
+  }
+  .form-list {
+    font-size: 35px;
+    padding: 40px 0 40px 25px;
+  }
+  .form-list li::before {
+    font-size: 39px;
+  }
+  .form-btn-text-main {
+    font-size: 36px;
+  }
+  .form-btn-text-secondary {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1920px){
+  .logo {
+    padding: 40px 0 0 40px;
+    width: 160px;
+  }
+  .content {
+    padding: 0 75px 0 40px;
+  }
+  .action-description {
+    font-size: 87px;
+    margin-bottom: -10px;
+  }
+  .action-description-red {
+    font-size: 114px;
+  }
+  .form-background {
+    width: 411px;
+    padding: 35px;
+    border-radius: 10px;
+  }
+  .form-header {
+    padding: 30px 0;
+    font-size: 35px;
+    line-height: 30px;
+  }
+  .form-description {
+    font-size: 29px;
+    padding: 30px 0;
+  }
+  .form-list {
+    font-size: 25px;
+    padding: 30px 0 30px 15px;
+  }
+  .form-list li::before {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 1680px){
+  .logo {
+    padding: 40px 0 0 40px;
+    width: 130px;
+  }
+  .content {
+    padding: 25px 75px 0 40px;
+  }
+  .action-description {
+    font-size: 87px;
+    margin-bottom: -10px;
+  }
+  .action-description-red {
+    font-size: 104px;
+  }
+  .form-background {
+    width: 375px;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  .form-header {
+    padding: 25px 0;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .form-description {
+    font-size: 23px;
+    padding: 35px 0;
+  }
+  .form-list {
+    font-size: 23px;
+    padding: 25px 0 25px 15px;
+  }
+  .form-list li::before {
+    font-size: 23px;
+  }
+}
+@media only screen and (max-width: 1600px){
+  .logo {
+    padding: 40px 0 0 40px;
+    width: 130px;
+  }
+  .content {
+    padding: 25px 75px 0 40px;
+  }
+  .action-description {
+    font-size: 87px;
+    margin-bottom: -10px;
+  }
+  .action-description-red {
+    font-size: 104px;
+  }
+  .form-background {
+    width: 375px;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  .form-header {
+    padding: 25px 0;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .form-description {
+    font-size: 23px;
+    padding: 35px 0;
+  }
+  .form-list {
+    font-size: 23px;
+    padding: 30px 0 30px 15px;
+  }
+  .form-list li::before {
+    font-size: 23px;
+  }
+}
+@media only screen and (max-width: 1440px){
+  .logo {
+    padding: 40px 0 0 40px;
+    width: 125px;
+  }
+  .content {
+    padding: 25px 65px 0 40px;
+  }
+  .action-description {
+    font-size: 77px;
+    margin-bottom: -10px;
+  }
+  .action-description-red {
+    font-size: 94px;
+  }
+  .form-background {
+    width: 350px;
+    padding: 35px;
+    border-radius: 10px;
+  }
+  .form-header {
+    padding: 20px 0;
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .form-description {
+    font-size: 21px;
+    padding: 20px 0;
+  }
+  .form-list {
+    font-size: 21px;
+    padding: 30px 0 30px 15px;
+  }
+  .form-list li::before {
+    font-size: 21px;
+  }
+}
+@media only screen and (max-width: 1366px){
+  .logo {
+    padding: 40px 0 0 40px;
+    width: 125px;
+  }
+  .content {
+    padding: 25px 65px 0 40px;
+  }
+  .action-description {
+    font-size: 77px;
+    margin-bottom: -10px;
+  }
+  .action-description-red {
+    font-size: 94px;
+  }
+  .form-background {
+    width: 325px;
+    padding: 30px;
+    border-radius: 7px;
+  }
+  .form-header {
+    padding: 20px 0;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .form-description {
+    font-size: 20px;
+    padding: 20px 0;
+  }
+  .form-list {
+    font-size: 20px;
+    padding: 30px 0 30px 15px;
+  }
+  .form-list li::before {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1280px){
+  .logo {
+    padding: 30px 0 0 30px;
+    width: 114px;
+  }
+  .content {
+    padding: 25px 50px 0 30px;
+  }
+  .action-description {
+    font-size: 67px;
+    margin-bottom: -10px;
+  }
+  .action-description-red {
+    font-size: 90px;
+  }
+  .form-background {
+    width: 320px;
+    padding: 25px;
+    border-radius: 5px;
+  }
+  .form-header {
+    padding: 20px 0;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .form-description {
+    font-size: 20px;
+    padding: 20px 0;
+  }
+  .form-list {
+    font-size: 20px;
+    padding: 30px 0 30px 15px;
+  }
+  .form-list li::before {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .logo {
+    padding: 25px 0 0 25px;
+    width: 114px;
+  }
+  .content {
+    padding: 15px 25px 0 25px;
+  }
+  .action-description {
+    font-size: 57px;
+  }
+  .action-description-red {
+    font-size: 84px;
+  }
+  .form-background {
+    width: 275px;
+    padding: 20px;
+  }
+  .form-header {
+    padding: 15px 0;
+    font-size: 23px;
+    line-height: 25px;
+  }
+  .form-description {
+    font-size: 17px;
+    padding: 15px 0
+  }
+  .form-list {
+    list-style: none;
+    font-size: 17px;
+    padding: 35px 0 30px 15px;
+  }
+  .form-list li::before {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 830px){
+  .logo {
+    padding: 10px 0 0 10px;
+    width: 70px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .action-description {
+    font-size: 40px;
+    margin-bottom: -7px;
+  }
+  .action-description-red {
+    font-size: 58px;
+    padding-bottom: 20px;
+  }
+  .form-background {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  .form-header {
+    padding: 15px 0;
+    font-size: 21px;
+    line-height: 22px;
+  }
+  .form-description {
+    font-size: 20px;
+    padding: 15px 0;
+  }
+  .form-list {
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 0 20px 15px;
+  }
+  .form-list li::before {
+    font-size: 18px;
+  }
+  .form-btn-text-main {
+    font-size: 20px;
+  }
+  .form-btn-text-secondary {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 640px){
+  .action-description {
+    font-size: 27px;
+    margin-bottom: -5px;
+  }
+  .action-description-red {
+    font-size: 43px;
+    padding-bottom: 15px;
+  }
+  .form-background {
+    width: 85%;
+
+  }
+}

@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="width-container">
+  <img src="{% static "images/logo_red.png" %}" alt="" class="logo">
+  <div class="content">
+    <div class="action-description-container">
+      <p class="action-description">live webinar mit</p>
+      <p class="action-description">unserEN experten</p>
+      <p class="action-description-red">kostenlos!</p>
+    </div>
+    <div class="form-background">
+      <h2 class="form-header">Sichere dir jetzt deinen platz</h2>
+      <div class="form-delimiter"></div>
+      <p class="form-description">in unserem EASY FRANCHISE - Webinar und erfahre persönlich, wie dein Weg zum eigenen, erfolgreichen Studio für dich aussehen kann</p>
+      <ul class="form-list">
+        <li>Experteninfos aus erster Hand</li>
+        <li>Zeit für individuelle Fragen</li>
+        <li>Termin direkt im Anmeldeformular auswählen und Teilnahme sichern</li>
+      </ul>
+      <a href="/step-02" class="form-btn">
+        <div class="form-btn-text-container">
+          <p class="form-btn-text-main">Klick hier</p>
+          <p class="form-btn-text-secondary">Sei Teil der Zukunft!</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+{% endblock %}

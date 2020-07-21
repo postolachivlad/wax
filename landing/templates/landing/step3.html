@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="width-container">
+  <img src="{% static "images/logo_red.png" %}" alt="" class="logo">
+  <div class="content">
+    <div class="action-description-container">
+      <p class="action-description">wir freuen uns</p>
+      <p class="action-description">auf dich im</p>
+      <p class="action-description-red">webinar!</p>
+    </div>
+    <div class="form-background">
+      <h2 class="form-header">Deine Anmeldung wurde an WAX IN THE CITY gesendet.</h2>
+      <p class="form-description">Wir melden uns in Kürze bei dir mit deiner persönlichen Einladung und deinem persönlichen Teilnehmer-Link für deinen ausgewählten Wunschtermin.</p>
+      <p class="form-description">Wenn du in der Zwischenzeit Fragen hast, kannst du gerne unsere Franchise-Beratung kontaktieren.
+      unter: <span class="phone">+49 30 8145202 0</span></p>
+    </div>
+  </div>
+</div>
+{% endblock %}
