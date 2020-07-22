@@ -15,8 +15,13 @@
       </title>
     </head>
     <body>
-        {% block content %}
-            content
-        {% endblock %}
+      <div class="background">
+        <div class="width-container">
+          <a href="{% url 'home' %}"><img src="{% static "images/logo-big-optimized.png" %}" alt="" class="logo"></a>
+          {% block content %}
+              content
+          {% endblock %}
+        </div>
+      </div>
     </body>
 </html>
