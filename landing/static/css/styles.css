@@ -3,7 +3,7 @@
   padding: 0;
 }
 .background{
-  background-image: url("images/background.png");
+  background-image: url("../images/background-big.png");
   height: 100vh;
   min-height: 100%;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 .action-description-container {
   transform: matrix3d(.93955,-.01745,-.34197,.00057,.0164,.99985,-.00597,.00001,.36146,0,.99309,-.00166,0,0,0,1);
   font-family: 'Gill Sans MT','Lato', sans-serif;
-  padding-left: 25px;
+  padding-left: 50px;
 }
 .action-description {
   font-size: 57px;
@@ -187,6 +187,15 @@ input {
     padding: 10px 0 0 10px;
     width: 70px;
   }
+  .background{
+    background-image: url("../images/background-small.png");
+    height: 100vh;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
   .content {
     display: flex;
     flex-direction: column;
@@ -243,6 +252,5 @@ input {
   }
   .form-background {
     width: 85%;
-
   }
 }
